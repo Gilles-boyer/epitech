@@ -1,0 +1,12 @@
+<?php
+
+function get_angry_dog(int $nbr)
+{
+
+   $woof =  for ($rep = 1 ; $rep <= $nbr ; $rep++)
+       {
+           "woof"
+        }
+    echo "\n";
+}
+

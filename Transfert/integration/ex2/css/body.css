@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot");
+  src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.svg#Avenir Heavy")
+      format("svg");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.eot");
+  src: url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1a045963159927274c92b0444fb83c17.svg#Avenir")
+      format("svg");
+}
+.black {
+  color: black;
+}
+body {
+  font-family: Avenir, Helvetica, sans-serif;
+  text-align: center;
+}
+.row {
+  margin-top: 30px;
+  padding: 0;
+}
+.p-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.product-name {
+  text-align: left;
+  color: black;
+}
+.product-name a {
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.panier1:hover {
+  background-color: grey;
+}
+.product-name em {
+  font-size: 0.8em;
+  color: darkslategray;
+}
+.price {
+  color: black;
+}
+.pagi{
+  width: 800px;
+}
+.pagination{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+.pagination li a{
+  border: none;
+  font-size: 1.5em;
+  color: black;
+}
+.pagination li a:hover{
+  color: white;
+  background-color: black;
+}
+.colorfilter{
+  background-color: white;
+  color: black;
+  border: none;
+  border-bottom: 4px solid rgb(206, 205, 205);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.filter{
+  width: 300px;
+  text-align: left;
+  height: 45px;
+  margin-top: 10px;
+}
+.filter p{
+  margin-left: 10px;
+}
+.filter2{
+  width: 300px;
+}
+.prixbet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+}
+.btn-secondary{
+  content:"V";
+}
+
+

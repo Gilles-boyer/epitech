@@ -1,0 +1,18 @@
+
+.card-text a{
+    color:black;
+    text-decoration: none;
+    font-size: smaller;
+}
+.card-text a:hover{
+    color:blue;
+}
+.card-title{
+    font-size: medium;
+    font-weight: bold;
+}
+.news{
+    color:black;
+    text-decoration: none;
+    font-size: smaller; 
+}

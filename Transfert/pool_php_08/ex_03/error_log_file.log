@@ -1,0 +1,9 @@
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gilles'@'localhost' (using password: YES) in /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php:14
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php(14): PDO->__construct('mysql:host=loca...', 'gilles', 'gille', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php(30): connect_db('localhost', 'gilles', 'gille', '3306', 'coding')
+#2 {main}PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gilles'@'localhost' (using password: YES) in /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php:14
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php(14): PDO->__construct('mysql:host=loca...', 'gilles', 'gille', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_03/db_pdo.php(30): connect_db('localhost', 'gilles', 'gille', '3306', 'coding')
+#2 {main}

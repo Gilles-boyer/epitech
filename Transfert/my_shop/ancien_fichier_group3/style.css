@@ -1,0 +1,119 @@
+/* Created by Xinyu CSS : HEADER - USER FORM SIGNUP - FOOTER  26/06/2020
+*  Poject : my_shop   (Groupe 3)                                                       */
+
+/************************************HEADER***********************************/
+.nav-item a {
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+.cat:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+}
+.navbar-brand {
+  width: 70px;
+  height: 70px;
+}
+.navbar-brand img {
+  width: inherit;
+  height: inherit;
+}
+.navbar-nav li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: black;
+  margin-left: 35px;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.dropdown-menu {
+  width: 20px;
+}
+.dropdown-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+/************************************USER FORM SIGNUP***********************************/
+body {
+  max-width: 100%;
+}
+
+.container {
+  width: 60%;
+  height: 70%;
+  margin-top: 15%;
+}
+.form-group {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: rgb(4, 30, 58);
+}
+.form-control {
+  height: 52px;
+  border: solid 2px black;
+}
+
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.form-check label {
+  font-size: small;
+  color: grey;
+}
+.col-xs-12 {
+  margin-left: none;
+}
+
+/**********************************FOOTER*************************************/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+.list-group {
+  height: 100px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 30px;
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 30px;
+}
+.list-group-item {
+  border: none;
+}
+
+.list-group-item a {
+  border: none;
+  text-decoration: none;
+  color: inherit;
+}
+.list-group-item i {
+  width: 60px;
+  height: 60px;
+}
+.follow-us h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: black;
+}
+.copyright h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  color: black;
+}

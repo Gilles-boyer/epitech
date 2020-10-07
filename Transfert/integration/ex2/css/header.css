@@ -1,0 +1,107 @@
+.color{
+  background-color: black;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backet-mobile{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: grey;
+}
+.backet-mobile a{
+  display: flex;
+  margin-left: 20px;
+}
+.navnav{
+  margin-left: 26px;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: white;
+  background-color: rgb(153, 150, 150);
+}
+.memumenu{
+  display: flex;
+  width: 320px ;
+  height: 514px;
+  background-color: black;
+}
+.dropdrop a{
+  margin-top: 30px;
+  color: white;
+}
+.color2{
+  background-color: white;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.color2:hover{
+  background-color:grey;
+}
+.test {
+  background-color: white;
+}
+.test:hover{
+  background-color: grey;
+}
+.dropsize{
+  width: 330px;
+}
+.dropdown-toggle{
+  content: V;
+}
+.algolia{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 965px;
+  border-bottom: 4px solid black;
+}
+.blue{
+ background-color: blue;
+}
+.grey{
+background-color: rgb(214, 10, 10);
+}
+
+.yellow{
+background-color: white;
+width: 310px;
+border-bottom: 4px solid rgb(233, 231, 231);
+height: 60px;
+color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-top: none;
+border-right: none;
+border-left: none;
+font-size: 1.5em;
+
+}
+.yellow h1{
+  font-size: 1.5em;
+  color: darkslategrey;
+}
+.yellow :hover{
+  color: white;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best{
+  width: 350px;
+}

@@ -1,0 +1,1 @@
+SELECT UPPER(name) as 'NAME OF ALL THE GENRES' FROM genres;

@@ -1,0 +1,39 @@
+PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles,', 'gilles,', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost,', 'gilles,', 'gilles,', '3306,', 'coding')
+#2 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'codin' in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles', 'gilles', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost', 'gilles', 'gilles', '3306', 'codin')
+#2 {main}PDOException: SQLSTATE[HY000] [1049] Unknown database 'codin' in /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php:21
+Stack trace:
+#0 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(21): PDO->__construct('mysql:host=loca...', 'gilles', 'gilles', Array)
+#1 /home/gilles/Rendu/pool_php_08/ex_04/connect_db.php(31): connect_db('localhost', 'gilles', 'gilles', '3306', 'codin')
+#2 {main}
